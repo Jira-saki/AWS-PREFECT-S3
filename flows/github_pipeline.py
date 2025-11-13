@@ -10,14 +10,15 @@ from pathlib import Path
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
-from prefect import flow, task
-from datetime import datetime
-import pandas as pd
-from typing import Dict, Any
+from prefect import flow, task  # noqa: E402
+from datetime import datetime  # noqa: E402
+import pandas as pd  # noqa: E402
+from typing import Dict, Any  # noqa: E402
 
-from src.api_client import GitHubAPIClient
-from src.storage import S3Storage
-from src.transform import DataTransformer
+from src.api_client import GitHubAPIClient  # noqa: E402
+from src.storage import S3Storage  # noqa: E402
+from src.transform import DataTransformer  # noqa: E402
+from src.config import GITHUB_TOKEN  # noqa: E402
 from src.config import GITHUB_TOKEN
 
 
