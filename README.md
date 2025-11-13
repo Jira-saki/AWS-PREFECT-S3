@@ -40,6 +40,17 @@ s3://bucket/
 - ✅ Parquet format for optimized storage
 - ✅ Ready for production deployment
 
+## �  Screenshots
+
+### Pipeline Execution
+![Pipeline Run](images/prefect-pipeline-complete.png)
+
+### S3 Bucket Structure
+![S3 Structure](images/s3-bucket.png)
+
+### GitHub Actions CI/CD
+![GitHub Actions](images/gitaction.png)
+
 ## 📁 Project Structure
 
 ```
