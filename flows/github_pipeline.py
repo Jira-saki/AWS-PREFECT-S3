@@ -19,7 +19,6 @@ from src.api_client import GitHubAPIClient  # noqa: E402
 from src.storage import S3Storage  # noqa: E402
 from src.transform import DataTransformer  # noqa: E402
 from src.config import GITHUB_TOKEN  # noqa: E402
-from src.config import GITHUB_TOKEN
 
 
 # Extract
@@ -177,7 +176,7 @@ def github_pipeline(language: str = "python", days_back: int = 7):
     processed_s3_key = save_processed_to_s3(df_clean)
 
     # Summary
-    print(f"\n✅ Pipeline completed!")
+    print("\n✅ Pipeline completed!")
     print(f"Raw data: {raw_s3_key}")
     print(f"Processed data: {processed_s3_key}")
 
