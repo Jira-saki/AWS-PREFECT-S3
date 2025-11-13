@@ -195,8 +195,8 @@ This project is licensed under the MIT License.
 ## 👤 Author
 
 Your Name
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- GitHub: [@yourusername](https://github.com/Jira-saki)
+- LinkedIn: [Your LinkedIn](https://linkedin.com/in/jira-saki)
 
 ## 🙏 Acknowledgments
 
