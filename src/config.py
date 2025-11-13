@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-#GitHub
+# GitHub
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
 # AWS
